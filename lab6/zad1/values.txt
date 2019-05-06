@@ -1,0 +1,59 @@
+pomaranczowy/żółty
+hmin 0
+hmax 41
+smin 116
+smax 226
+vmin 171
+vmax 219
+
+
+MIN_H: 0
+MAX_H: 266
+MIN_S: 115
+MAX_S: 223
+MIN_V: 152
+MAX_V: 300
+
+
+
+zielony
+hmin 34
+hmax 82
+smin 65
+smax 253
+vmin 75
+vmax 154
+
+ok
+
+
+niebieski
+hmin 89
+hmax 147
+smin 144
+smax 318
+vmin  45
+vmax 195
+
+MIN_H: 0
+MAX_H: 21
+MIN_S: 63
+MAX_S: 300
+MIN_V: 34
+MAX_V: 191
+
+czerwony
+MIN_H: 115
+MAX_H: 180
+MIN_S: 164
+MAX_S: 279
+MIN_V: 99
+MAX_V: 300
+
+czarny
+MIN_H: 0
+MAX_H: 0
+MIN_S: 0
+MAX_S: 0
+MIN_V: 0
+MAX_V: 255
