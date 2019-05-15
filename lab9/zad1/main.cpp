@@ -12,7 +12,7 @@ using namespace std;
 using namespace cv;
 
 int counter = 0;
-int timeDelay = 10;
+int timeDelay = 15;
 
 //stays as int
 int topMaxCorners = 500;
@@ -34,8 +34,8 @@ double convertToDouble(int value) {
 
 int main() {
 
-    //VideoCapture cap("/Users/agalempaszek/Desktop/opencv-lab/bike.avi");
-    VideoCapture cap(0);
+    VideoCapture cap("/Users/agalempaszek/Desktop/opencv-lab/bike.avi");
+    //VideoCapture cap(0);
     Mat mask, prevFrame, frame, prevFrameGray, frameGray, frameMotion;
     vector<uchar> status;
     vector<float> err;
@@ -102,7 +102,6 @@ int main() {
 
         prevCorners = currCorners;
         prevFrameGray = frameGray.clone();
-
         currCorners.clear();
 
         imshow("Image", frame);
